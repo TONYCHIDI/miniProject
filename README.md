@@ -1,0 +1,2 @@
+# miniProject
+Zuri Project
