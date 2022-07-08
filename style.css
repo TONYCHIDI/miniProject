@@ -1,0 +1,95 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+html, body {
+    background: url("/miniprojectbg.jpg");
+    background-size: cover;
+    max-width: 100%;
+    min-height: 100vh;
+    max-height: 100vh;
+}
+
+h1 {
+    color: #08496a;
+    font-size: 34px;
+}
+
+p {
+    font-size: 18px;
+}
+
+.container {
+    width: 100%;
+}
+
+.top-view {
+    background-color: #fff;
+    width: 80%;
+    padding: 80px;
+    margin: 4% auto;
+    border-radius: 10px;
+    box-shadow: 4px 4px 8px 8px #bcd2dd;
+}
+
+.top-view p {
+    color: #84959d;
+}
+
+button {
+    padding: 10px;
+    font-weight: 900;
+    text-transform: uppercase;
+    cursor: pointer;
+    outline: none;
+    border: none;
+    border-radius: 8px;
+}
+
+#btn_1 {
+    background-color: #bcd2dd;
+    color: #6c9fb9;
+    width: 150px;
+}
+
+#btn_1:hover {
+    background-color: #6c9fb9;
+    color: #fff;
+    border-radius: 10px;
+    padding: 14px;
+    transition: 0.3s;
+}
+
+#btn_2 {
+    background-color: #6c9fb9;
+    color: #fff;
+    border-radius: 8px;
+    width: 80%;
+    margin: 0 auto;
+}
+
+#btn_2:hover {
+    background-color: #9aaeb8;
+    color: #55869f;
+    border-radius: 10px;
+    padding: 14px;
+    transition: 0.3s;
+}
+
+.down-view {
+    text-align: center;
+}
+
+footer {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    background-color: #9aaeb8;
+    text-align: center;
+    padding: 20px;
+    border-top-right-radius: 20px;
+    border-top-left-radius: 20px;
+    color: #08496a;
+}
